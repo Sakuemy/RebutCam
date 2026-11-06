@@ -16,7 +16,7 @@ const byte outputPin = 12;
 
 // ===== НАСТРОЙКИ =====
 const float referenceVoltage = 5.0;
-const float thresholdVoltage = 0.15;
+const float thresholdVoltage = 0.35;
 const float alpha = 0.002;
 const uint32_t MINUTE_MS = 60000UL;
 const unsigned long outputTime = 5000;              // длительность отключения, мс
